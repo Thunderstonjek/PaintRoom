@@ -1,11 +1,18 @@
 <head>
     <title>PaintRoom Project WIP</title>
-    <script src="main.js"></script>
-    <!-- TODO: import Bootstrap for style and paint.js for canvas functions -->
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Paint.js -->
+    <script src="./Paint.js-master/Paint.min.js"></script>
+    <link rel="stylesheet" href="Paint.js-master/paint.css">
+    <link rel="stylesheet" href="Paint.js-master/spectrum.css">
+    <link rel="stylesheet" href="Paint.js-master/control.css">
+    <!-- mine -->
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="jumbotron text-center">
@@ -14,7 +21,12 @@
     <div class="container">
         <div class="row">
             <div class="col-xl">
-                <p>currently just a paragraph</p>
+                <p>currently just a paragraph. But wait! Canvas time!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl">
+                <div id="drawspace" class="drawspace"></div>
             </div>
         </div>
     </div>
