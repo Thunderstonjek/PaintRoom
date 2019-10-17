@@ -7,8 +7,11 @@ $("document").ready(function(){
     var drawspace = document.getElementById("drawspace");
     pr.paint = new Paint(drawspace);
 
-    pr.paint.addEventListener("drawing", function (event) {
-        console.log(event.type);
-        console.log(event.drawing);
+    drawspace.addEventListener("userdrawing", function (event) {
+        console.log(event);
+        // console.log(event.type);
+        // console.log(event.drawing);
     });
-})
+    console.log("ready");
+    console.log(pr.paint);
+});
