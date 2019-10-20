@@ -42,6 +42,6 @@ $("document").ready(function(){
 
     $("#testbox").append("<button onClick='pr.logpaint()'>log paint</button>")
     $("#testbox").append("<button onClick='pr.fireDrawing()'>fire draw event</button>")
-    $("#testbox").append("<button onClick='pr.fireDrawing()'>output canvas</button>")
+    $("#testbox").append("<button onClick='pr.outputCanvas()'>output canvas</button>")
     $("#testbox").append("<button onClick='pr.paint.clear()'>clear canvas</button>")
 });
